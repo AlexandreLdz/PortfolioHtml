@@ -169,8 +169,8 @@ section:nth-of-type(3) button a {
     
 }
 section:nth-of-type(3) button{
-    width: 15rem;
-    padding: 1.5rem;
+    width: 20rem;
+    padding: 2rem;
     background-image: linear-gradient(120deg, #F05F57, #360940);
     margin-bottom: 2rem;
 }
@@ -290,6 +290,9 @@ footer{
     }
     section:nth-of-type(3)>ul>li {
         max-width: 70rem;
+    }
+    section {
+        margin-top: 50rem;
     }
 }
 

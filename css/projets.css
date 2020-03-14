@@ -1,0 +1,110 @@
+/* Reset */
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+html {
+    font-size: 62.5%;
+}
+body { 
+    font: 1.6rem sans-serif;
+    margin: 0;
+    color: #fafafa;
+} 
+h1,h2,h3,ul,ol,p,a {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+html {
+    /*background-image: linear-gradient(120deg, rgba(255, 195, 18,1.0), rgba(247, 159, 31,1.0), rgba(163, 203, 56,1.0), rgba(0, 148, 50,1.0));*/
+    background-image: linear-gradient(120deg, #F05F57, #360940);
+    width: 100%;
+}
+header nav{
+    background-image: linear-gradient(240deg, #F05F57, #360940);
+    width: 100%;
+    text-align: center;
+    line-height: 6rem;
+}
+header nav a {
+    color: #fafafa;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+section img{
+    display: block;  
+    width: 50rem;
+    border: 1rem solid #222;
+}
+section>ul>li:nth-of-type(2n+1) {
+    align-content: right;
+}
+section>ul>li>figure>figcaption>h2 {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+section>ul>li>figure {
+    
+    display: flex;
+ 
+}
+section>ul>li>figure>img{
+    max-width: 60rem;
+}
+
+section figcaption{
+    margin: 2rem;
+    max-width: 80rem;
+}
+i {
+    font-size: 3.5rem;
+    padding: .5rem;
+}
+
+section button{
+    width: 15rem;
+    padding: 1.5rem;
+    background-image: linear-gradient(120deg, #F05F57, #360940);
+    margin-top: 5rem;
+    display: block; 
+}
+section p {
+    margin-bottom: 1rem;
+}
+section button a {
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    
+}
+section>ul>li:nth-of-type(2n+1) {
+    align-content: right;
+}
+@media screen and (max-width: 768px) {
+    section figcaption{
+        max-width: 20rem;
+    }
+    section figure{
+        max-width: 40rem;
+        max-height: 5rem;
+    }
+    i {
+        font-size: 2rem;
+        padding: .4rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    p{
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+    
+}
+
+
+
+

@@ -1,0 +1,284 @@
+/* Reset */
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+html {
+    font-size: 62.5%;
+}
+body { 
+    font: 1.6rem sans-serif;
+    margin: 0;
+    color: #fafafa;
+} 
+h1,h2,h3,ul,ol,p,a {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+html {
+    /*background-image: linear-gradient(120deg, rgba(255, 195, 18,1.0), rgba(247, 159, 31,1.0), rgba(163, 203, 56,1.0), rgba(0, 148, 50,1.0));*/
+    background-image: linear-gradient(120deg, #F05F57, #360940);
+    width: 100%;
+    scroll-behavior: smooth;
+}
+:root{
+    
+    /*--color-primary:rgba(106, 137, 204,1.0) ;*/
+    --color-primary: #F05F57;
+    --color-oe: #1e3799;
+    /*--color-secondary: rgba(24, 44, 97,1.0);*/
+    --color-secondary: #360940;
+    --color-test: rgba(6, 82, 221,1.0);
+}
+/* Thème */
+section img {
+    display: block;
+    width: 100%;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: .6rem;
+    
+}
+header>nav>ul {
+    position: fixed;
+    background-image: linear-gradient(240deg, #F05F57, #360940);
+    width: 100%;
+    text-align: center;
+    line-height: 4rem;
+}
+header>nav>ul>li>a{
+    color: #fafafa;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%;
+}
+main>section {
+    margin: 2rem;
+    margin-top: 5rem;
+}
+main>i:nth-of-type(1){
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 45px;
+    background-image: linear-gradient(120deg, #F05F57, #360940);
+    padding: 7px 10px;
+    border-radius: 50%;
+    color: #fafafa;
+    cursor: pointer;
+    border: 1px solid #fafafa;
+    opacity: 1;
+    pointer-events: none;
+    transition: opacity .3s ease-in-out;
+}
+main>h1:nth-of-type(1) {
+    display: block;
+    line-height: 40rem;
+    text-align: center;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    font-family: "Sigmar One";
+    background-image: linear-gradient(20deg, rgba(255, 195, 18,1.0), rgba(247, 159, 31,1.0), rgba(163, 203, 56,1.0), rgba(0, 148, 50,1.0));
+    animation: letitre 100s infinite;
+    -webkit-background-clip : text;
+}
+section>h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+hr {
+    width: 10rem;
+    margin-bottom: 5rem;
+}
+section:nth-of-type(1)>ul>li>p{
+    margin-bottom: .2rem;
+    padding: .2rem;
+    margin-left: 6rem;
+}
+section:nth-of-type(1)>ul>li>h3:first-letter{
+    color: #fafafa;
+}
+section:nth-of-type(1)>ul>li>i {
+    font-size: 2rem;
+    color: #fafafa;
+    padding: .5rem;
+    border-radius: 1rem;
+    
+    
+}
+section:nth-of-type(1)>ul>li>i:nth-of-type(3){
+    padding: 0.2rem;
+} 
+section:nth-of-type(1)>ul>li>h3{
+    display: inline-block;
+}
+section:nth-of-type(2)>ul{
+    text-align: center;
+}
+section:nth-of-type(2)>ul>li{
+    display: inline-block;
+    align-content: center;
+}
+section:nth-of-type(2)>ul>li>i{
+    font-size: 4.8rem;
+    text-align: center;
+    display: block;
+    padding: 2rem;
+    color: #fafafa;
+    border-radius: 1.5rem;
+    
+}
+section:nth-of-type(2)>ul>li>p{
+    font-size: 50%;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+section:nth-of-type(3){
+    text-align: center;
+}
+section:nth-of-type(3)>ul>li{
+    display: inline-block;
+    max-width: 60rem;
+    
+    
+}
+section:nth-of-type(3)>ul>li>figure>figcaption{
+    display: inline-block;
+    
+
+}
+section:nth-of-type(3)>ul>li>figure>img{
+    display: inline-block;
+    max-width: 100%;
+    
+}
+section:nth-of-type(3)>ul>li>figure>figcaption{
+    max-width: 15rem;
+    vertical-align: top;
+
+}
+
+section:nth-of-type(3) button a {
+    color: #fafafa;
+    font-size: 130%;
+    text-transform: uppercase;
+    
+}
+section:nth-of-type(3) button{
+    width: 15rem;
+    padding: 1.5rem;
+    background-image: linear-gradient(120deg, #F05F57, #360940);
+    margin-bottom: 2rem;
+}
+section:nth-of-type(3) h2{
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+section:nth-of-type(3) i {
+    
+    font-size: 2.5rem;
+    padding: .5rem;
+    max-width: 15rem;
+    
+}
+section:nth-of-type(3) p{
+    
+    text-align: center;
+    
+    max-width: 15rem;
+    
+}
+
+
+
+
+footer{
+    text-align: center;
+    line-height: 5rem;
+}
+/* responsive*/ 
+
+@media screen and (min-width: 768px) {
+    main>h1:nth-of-type(1){
+        line-height: 60rem;
+        font-size: 8rem;
+    }
+    header>nav>ul>li>a{
+        font-size: 2.5rem;
+        padding: .8rem;
+        font-family: "Sigmar One";
+    }
+    header>nav>ul>li:hover, header>nav>ul>li:hover>a  {
+        
+        color: rgba(45, 152, 218,1.0);
+    }
+    section:nth-of-type(1)>ul{
+        text-align: center;
+    }
+    section:nth-of-type(1)>ul>li{
+        display: inline-block;
+        width: 40rem;
+        text-align: center;
+    }
+    section:nth-of-type(1)>ul>li>h3{
+        width: 5rem;
+    }
+    
+    section:nth-of-type(1)>ul>li>p{
+        margin-bottom: 4rem;
+    }
+    section:nth-of-type(1)>ul>li>i {
+        font-size: 6rem;
+        padding: 1rem;
+        border-radius: 2rem;
+        margin-bottom: 2rem;
+        width: 10rem;
+        
+        
+    }
+    section:nth-of-type(2)>ul>li{
+        width: 45rem;
+        
+    }
+    section:nth-of-type(2)>ul>li>i{
+        font-size: 10rem; 
+        background: none;
+        
+        
+    }
+    section:nth-of-type(2)>ul>li>p{
+        font-size: 2rem;
+    }
+    section:nth-of-type(3)>ul>li{
+        display: inline-block;
+        width: 200%;
+        
+    }
+    section:nth-of-type(3)>ul>li>figure>img{
+        width: 300%;
+        
+    }
+    section:nth-of-type(3)>ul>li>figure>figcaption{
+        max-width: 15rem;
+        
+    }
+    section:nth-of-type(3) button:hover{
+
+    }
+    section:nth-of-type(3) p {
+        max-width: 30rem;
+    }
+    section:nth-of-type(3) i{
+        
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+}
+

@@ -59,7 +59,7 @@ main>section {
     margin: 2rem;
     margin-top: 5rem;
 }
-main>i:nth-of-type(1){
+main>a>i{
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -71,7 +71,7 @@ main>i:nth-of-type(1){
     cursor: pointer;
     border: 1px solid #fafafa;
     opacity: 1;
-    pointer-events: none;
+    
     transition: opacity .3s ease-in-out;
 }
 main>h1:nth-of-type(1) {

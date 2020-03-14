@@ -1,7 +1,0 @@
-<?php
-
-//Exemple du fichier auth.php qui est propre à chaque utilisateur.
-define('HOST','localhost');
-define('DATABASE','agenceimmo');
-define('USER','root');
-define('PASSWORD','');
